@@ -45,18 +45,25 @@ promise.then((resolve, reject) => {
 
 3.箭头函数没有自己this，它的this是词法的，引用的是上下文的this
 
-这在数组一些操作上用的比较多，比如forEach、ma等。
+这在数组一些操作上用的比较多，比如forEach、map等。
 
 ### 数组的扩展
 findIndex 
 
 find
+
+of
+
+from
 ...
 ### 对象的扩展
 object.assign
 
 ### 解构赋值
 消耗数组的迭代器，把生成对象的value属性的值赋值给对应的变量
+{name, age} = person
+name 
+age
 
 ### 剩余/拓展运算符
 
@@ -80,3 +87,9 @@ for (var i = 0;i<10, i++){
 console.log(i);
 ```
 把var 换成let试试
+
+### 模板字符串
+
+```
+`hello, ${name}, nice to meet you`
+``` 
